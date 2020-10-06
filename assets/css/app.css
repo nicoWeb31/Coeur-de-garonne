@@ -175,7 +175,11 @@ The classes above can be combined to create more dynamic and flexible layouts. *
     background-position: center;
     background-size: cover;
 
-} 
+}
+
+._btnAdhesion{
+    font-size: 23px !important;
+}
 
 
 
