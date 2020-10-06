@@ -117,6 +117,11 @@ The classes above can be combined to create more dynamic and flexible layouts. *
         margin: 10px auto !important;
         padding: 10px !important;
     }
+
+    ._course{
+        margin: 5px !important;
+        padding: 5px !important;
+    }
     
 }
 
@@ -145,6 +150,10 @@ The classes above can be combined to create more dynamic and flexible layouts. *
 
     ._logoVtt {
         margin-top: 35px !important;
+    }
+
+    ._btnTns{
+        flex-direction: column !important;
     }
 
 
