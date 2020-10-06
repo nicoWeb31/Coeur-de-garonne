@@ -1,66 +1,120 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}TNS | {{parent()}}{% endblock %}
-{% block monTitle %}Trail Nocture en Savès{% endblock %}
+{% block title %}TNS |
+	{{parent()}}
+{% endblock %}
+{% block monTitle %}Trail Nocture en Savès
+{% endblock %}
 
 {% block body %}
-{% block nav2 %}{% endblock %}
-<div class="container-fluid TnsImg">
-
-    <div class="m-4 p-4">
-        <div class="text-center text-white display-4 font-italic"> 1ère édition !!! </div>
-
-    </div>
-
-    <div>
-        <div class="display-4 text-white text-center text-warning p-4 " >
-            Forgues Samedi 21 Novembre
-        </div>
-    </div>
-
-        <div>
-            <p class=" display-3 text-white text-center font-weight-bold p-2 _tnsTI">Trail Nocture en Saves</p>
-
-        </div>
-            
+	{% block nav2 %}{% endblock %}
 
 
-    <div class="row p-3">
-        <div class="col-lg-6 display-4 text-white text-center p-2" >
-            <div>La Salamandre</div>
-            <div class="text-danger font-weight-bold"> 11KM    300D+ </div>
-
-            
-        </div>
+	<div>
+		<h2 id='timerTrail' class="text-center text-bold text-warning"></h2>
+	</div>
 
 
+			<div class="row">
+
+				<div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 jumbotron border-bottom border-light m-5">
+					<h4 class="display-5 text-center">Inscription :
+					</h4>
+					<hr class="my-4 my-light">
+
+					<p class='text-center'>
+						Inscrivez-vous directement en ligne avec notre partenaire Pyrénéés Chrono !
+					</p>
+                    <a href="https://pyreneeschrono.fr/evenement/trail-nocturne-en-saves-2020/">
+					<button type="button" class="btn btn-outline-primary d-block mx-auto">
+                    Ici           
+						<svg width="2em" height="2em" viewbox="0 0 16 16" class="bi bi-arrow-left-square-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm9.5 8.5a.5.5 0 0 0 0-1H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5z"/>
+						</svg>
+					</button>
+                    
+                    </a>
+
+				</p>
+
+			</div>
 
 
-        <div class="col-lg-6 display-4 text-white text-center p-5" >
-            <div>La Casteras</div>
-            <div class="text-danger font-weight-bold">22KM      600D+</div>
+				<div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 jumbotron border-bottom border-light m-5">
+					<h4 class="display-5 text-center">Les étoiles de Camille et Pauline 
+					</h4>
+					<hr class="my-4 my-light">
 
-            
-        </div>
+					<p class='text-center'>
+						Inscrivez-vous directement en ligne avec notre partenaire Pyrénéés Chrono !
+					</p>
+                    <a href="https://pyreneeschrono.fr/evenement/trail-nocturne-en-saves-2020/">
+					<button type="button" class="btn btn-outline-primary d-block mx-auto">
+                    Ici           
+						<svg width="2em" height="2em" viewbox="0 0 16 16" class="bi bi-arrow-left-square-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm9.5 8.5a.5.5 0 0 0 0-1H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5z"/>
+						</svg>
+					</button>
+                    
+                    </a>
 
-    </div>
+				</p>
 
-    <div> 
-        <h4 id='timerTrail' class="text-center text-bold text-warning"></h4>
-    </div>
-
-    <div class="p-4  m-5 display-5 text-center text-info">
-        Plus d'information a venir... restez connecté
-    </div>
+			</div>
 
 
+	<div class="container-fluid TnsImg">
+		<div class='_childimg'>
+			<div class="m-4 p-4">
+				<div class="text-center text-white display-4 font-italic">
+					1ère édition !!!
+				</div>
+
+			</div>
+
+			<div>
+				<div class="display-4 text-white text-center text-warning p-4 ">
+					Forgues Samedi 21 Novembre
+				</div>
+			</div>
+
+			<div>
+				<p class=" display-3 text-white text-center font-weight-bold p-2 _tnsTI">Trail Nocture en Saves</p>
+
+			</div>
 
 
+			<div class="row p-3">
+				<div class="col-lg-6 display-4 text-white text-center p-2">
+					<div>La Salamandre</div>
+					<div class="text-danger font-weight-bold">
+						11KM    300D+
+					</div>
+
+
+				</div>
+
+
+				<div class="col-lg-6 display-4 text-white text-center p-5">
+					<div>La Casteras</div>
+					<div class="text-danger font-weight-bold">22KM      600D+</div>
+
+
+				</div>
+
+			</div>
+
+
+
+
+		</div>
+
+	</div>
 
 
 </div>
 
 
-{% block javascripts %}{{ encore_entry_script_tags('timer') }}{% endblock %}
-
-{% endblock %}
+{% block javascripts %}
+	{{ encore_entry_script_tags('timer') }}
+{% endblock %}{% endblock %}

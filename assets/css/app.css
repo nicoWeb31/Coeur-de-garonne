@@ -161,6 +161,13 @@ The classes above can be combined to create more dynamic and flexible layouts. *
     padding-top: 100px !important;
 }
 
+._childimg{
+    
+    background: rgba(133, 132, 132, 0.3) !important; 
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
 
 
 
