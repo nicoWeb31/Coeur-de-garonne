@@ -163,11 +163,19 @@ The classes above can be combined to create more dynamic and flexible layouts. *
 
 ._childimg{
     
-    background: rgba(133, 132, 132, 0.3) !important; 
+    background: rgba(80, 77, 77, 0.5) !important; 
     margin: 0px !important;
     padding: 0px !important;
 }
 
+
+._imgTrailInscription{
+    background-image: url("/images/imagesAutre/nocturne.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+} 
 
 
 
