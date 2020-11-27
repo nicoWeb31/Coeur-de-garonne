@@ -1,0 +1,73 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}TNS |
+	{{parent()}}
+{% endblock %}
+{% block monTitle %}Challenge Camille est pauline
+{% endblock %}
+
+{% block body %}
+	{% block nav2 %}{% endblock %}
+	<div class="container d-flex justify-content-center pt-4">
+
+		<div class="col-xl-11 col-lg-11 col-md-10 col-sm-12 col-12 jumbotron border-bottom border-light">
+			<img src="{{asset('images/imagesAutre/challenge.png')}}" alt="Etoiles" class="_etoiles img-fluid mx-auto d-block p-0 m-0 w-100">
+
+			<hr class="my-4 my-light">
+
+			<p class='text-center'>
+				"Amis sportifs,
+								            La crise sanitaire est là et nous contraint à reporter notre 1 ère édition du T.N.S. (Trail Nocturne en Savès) au Samedi 13 mars 2021… Retenez cette date…😁😉
+								            Une partie des bénéfices de cette manifestation devait être reversée à l’association « Les étoiles de Camille et Pauline », deux petites filles de 8 ans, et  atteintes de paralysie cérébrale. Prochainement, elles doivent subir une importante intervention chirurgicale, qui coûte cher et qui doit se faire en Allemagne, à KÖLN.
+								            Nous avons à cœur d’aider cette association…
+			</P>
+			<p>
+				Alors une super idée nous est venue…😊 Organiser un petit challenge virtuel…bon d’accord on a copié sur les copains 🤭 mais l’essentiel c’est qu’en participant VOUS pourrez NOUS aider et aider Camille et Pauline.
+								            Challenge prévue du 27/11/2020 au 06/12/2020... Retenez ces dates aussi… ! 😁😉
+								            L’idée… c’est que tous ensemble, nous arrivons à parcourir 1200km qui sépare PLAGNOLE (Lieu d’habitation des filles) à KÖLN (Allemagne). Et comme nous sommes une association qui pratique du
+								            VTT, de la Randonnée et du Trail, nous ouvrons le challenge aux 3 disciplines.
+			</p>
+			<p>
+				A votre choix de sports 🚴‍♂️🚶‍♀️🏃et de distances. Unissons-nous et faisons la route pour soutenir et accompagner Camille et Pauline dans leur voyage.
+			</p>
+			<p>
+				Modalités d’inscription et de participation :
+			</p>
+			<ul>
+				<li>
+					Frais d’inscription :  5€ ou 1€ le km
+
+				</li>
+			</ul>
+
+
+		</p>
+
+		<div class="row  d-flex justify-content-center m-4">
+
+			<a type="button" class="btn btn-info btn-lg d-flex justify-content-center align-items-center m-3 text-white" href="https://www.payassociation.fr/vttencoeurdegaronne/d%C3%A9ficamilleetpauline">
+
+				<span class="">Inscrisption</span>
+				<i class="medium material-icons m-2">assignment</i>
+				<i class="medium material-icons">euro_symbol</i>
+			</a>
+
+
+			{# <a type="button" class="btn btn-info btn-lg d-flex justify-content-center align-items-center m-3 text-white" href="https://www.payassociation.fr/vttencoeurdegaronne/d%C3%A9ficamilleetpauline  ">
+															<span class="">Payment</span>
+															<i class="medium material-icons">euro_symbol</i>
+														</a> #}
+
+		</div>
+		<p>
+			La totalité des bénéfices seront reversés à l'association "les étoiles de Camille et Pauline". ✨😊"
+		</p>
+
+
+		<p>
+			Sportivement,L'équipe VTT en cœur de Garonne.
+		</p>
+
+
+	</div>
+</div>{% endblock %}

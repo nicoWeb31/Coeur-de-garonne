@@ -28,18 +28,12 @@ use Symfony\Component\Security\Csrf\TokenGenerator\TokenGeneratorInterface;
 class GlobalController extends AbstractController
 {
 
-
     private $client;
 
     public function __construct(HttpClientInterface $client)
     {
         $this->client = $client;
     }
-
-
-
-
-
 
 
     /**
@@ -57,6 +51,14 @@ class GlobalController extends AbstractController
     public function tns()
     {
         return $this->render('global/tns.html.twig');
+    }
+
+    /**
+     * @Route("/challenge", name="Challenge")
+     */
+    public function challenge()
+    {
+        return $this->render('global/challenge.html.twig');
     }
 
 
